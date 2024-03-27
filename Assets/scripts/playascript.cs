@@ -8,10 +8,12 @@ public class playascript : MonoBehaviour
     Rigidbody2D rb2d;
 
     public float movespeed = 5;
+    Animator animator;
 
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         
     }
 
@@ -23,5 +25,14 @@ public class playascript : MonoBehaviour
 
 
         rb2d.velocity = new Vector2(vx, vy);
+
+        if(rb2d.velocity == Vector2.zero)
+        {
+            animator.Play("Walkingl Animation");
+        }
+        else
+        {
+            animator.Play("New Animation"); 
+        }
     }
 }
