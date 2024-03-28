@@ -15,6 +15,7 @@ public class playascript : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         
+
     }
 
     // Update is called once per frame
