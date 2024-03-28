@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Walkingl Animation
+  m_Name: Playa_walking_right
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,13 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -1264402365, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
+      value: {fileID: -1478018246, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
     - time: 0.16666667
-      value: {fileID: -328117059, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
+      value: {fileID: -658732759, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
     - time: 0.33333334
-      value: {fileID: -1401517799, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
+      value: {fileID: 754082927, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
     - time: 0.5
-      value: {fileID: -140056151, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
+      value: {fileID: -1723463714, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,10 +50,10 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -1264402365, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
-    - {fileID: -328117059, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
-    - {fileID: -1401517799, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
-    - {fileID: -140056151, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
+    - {fileID: -1478018246, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
+    - {fileID: -658732759, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
+    - {fileID: 754082927, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
+    - {fileID: -1723463714, guid: cc7566e140c47e0499188f5f202d2317, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

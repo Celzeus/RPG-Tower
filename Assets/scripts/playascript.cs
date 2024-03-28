@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,8 @@ public class playascript : MonoBehaviour
 
     public float movespeed = 5;
     Animator animator;
+
+
 
     void Start()
     {
@@ -29,11 +32,29 @@ public class playascript : MonoBehaviour
 
         if(rb2d.velocity == Vector2.zero)
         {
-            animator.Play("Walkingl Animation");
+            animator.Play("Playa_Idle");
         }
-        else
+
+        else if (Input.GetKeyDown(KeyCode.W))
         {
-            animator.Play("New Animation"); 
+            animator.Play("Playa_Walking_Up");
         }
+
+        else if (Input.GetKeyDown(KeyCode.A))
+        {
+            animator.Play("Playa_Walking_Left");
+        }
+
+        else if (Input.GetKeyDown(KeyCode.S))
+        {
+            animator.Play("Playa_Walking_Down");
+        }
+
+        else if ( Input.GetKeyDown(KeyCode.D ))
+        {
+            animator.Play("Playa_walking_right");
+        }
+
+       
     }
 }
